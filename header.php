@@ -1,16 +1,12 @@
-<?php 
+<!DOCTYPE html>
+<html lang="<?php language_attributes(); ?>">
+<head>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php wp_title(); ?></title>
+    
+    <?php wp_head(); ?>
+</head>
+<body>
 
-
-get_header();
-
-?>
-
-<h1>Hi Git!!!!!!</h1>
-
-
-<?php 
-
-
-get_footer();
-
-?>
+<h2>Header</h2>
